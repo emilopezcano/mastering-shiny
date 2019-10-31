@@ -227,7 +227,7 @@ knitr::include_graphics("screenshots/basic-case-study/rate-vs-count.png", dpi = 
 
 ## Narrative
 
-Finally, I want provide some way to access the narratives because they are so interesting, and they give an informal way to cross-check the hypotheses you come up when looking at the plots. In the R code, I sample multiple narratives at once, but there's no reason to do that in an app where you can explore interactively.
+Finally, I want to provide some way to access the narratives because they are so interesting, and they give an informal way to cross-check the hypotheses you come up when looking at the plots. In the R code, I sample multiple narratives at once, but there's no reason to do that in an app where you can explore interactively.
 
 There are two parts to the solution. First we add a new row to the bottom of UI. I use an action button to trigger a new story, and and put the narrative in a `textOutput()`:
 
