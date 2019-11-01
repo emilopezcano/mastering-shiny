@@ -388,7 +388,7 @@ Creating a reproducible example is a great first step because it means that some
 
 Creating the smallest possible reprex is particularly important for Shiny apps, which can be quite large and complicated. Rather than forcing the person trying to help you to understand all the details of your app, you are more likely to get higher quality help faster if you can extract out the exact piece of the app that you're struggling with. As an added benefit, this process will often lead you to discover what the problem is, so you don't have to wait for help from someone else!
 
-Reducing a bunch of code to the essential problem is a skill, and you probably won't be very good it at first. That's ok! Even the smallest reduction in code complexity helps the person helping you, and over time your complexity reduction skills will approve.
+Reducing a bunch of code to the essential problem is a skill, and you probably won't be very good at it at first. That's ok! Even the smallest reduction in code complexity helps the person helping you, and over time your complexity reduction skills will approve.
 
 If you don't know what part of your code is triggering the problem, a good way to find it is to remove sections of code from your application, piece by piece, until the problem goes away. If removing a particular piece of code makes the problem stop, it's likely that that code is related to the problem. Alternatively, sometimes it's simpler to start with a fresh, empty, app and progressively build it up until you find the problem again.
 
