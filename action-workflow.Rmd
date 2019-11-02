@@ -531,7 +531,7 @@ max(datetime)
 c(min, max)
 ```
 
-Now the problem is obvious: we've haven't assigned `min` and `max` variables, so we're accidentally passing the `min()` and `max()` functions into `sliderInput()`. One way to solve that problem is to use `range()` instead:
+Now the problem is obvious: we haven't assigned `min` and `max` variables, so we're accidentally passing the `min()` and `max()` functions into `sliderInput()`. One way to solve that problem is to use `range()` instead:
 
 ```{r}
 ui <- fluidPage(
